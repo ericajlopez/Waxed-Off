@@ -1,0 +1,254 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  /* clear: both; */
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  background-image: url('img/inTheStudioPicture.png'), url('img/pinkSilk.jpg');
+  background-position: right , left;
+  background-repeat: no-repeat;
+  background-size:  40%, contain;
+  background-attachment: fixed; 
+  background-color: rgb(218,170,161);
+  
+}
+#borderAround{
+  background-color: rgb(197, 168, 141,.8); 
+  border: 4px solid white;
+  margin: 10px;
+  width: 600px;
+  height: 990px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom:15px;
+  position: relative;
+  z-index: 5; 
+}
+
+
+#logo{
+  margin: -150px;
+  padding-bottom: 15px;
+  width:500px;
+  
+  display: block;
+  justify-content: center;
+  
+
+  margin-left: auto;
+  margin-right: auto; 
+  
+  position: relative;
+  z-index: 5;
+  
+ 
+}
+
+/* #paolasPicture{
+  border: 3px solid white;
+  border-radius: 50%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom:15px;
+  margin-top: 10%;
+
+  position: relative;
+  z-index: 5;
+} */
+
+/* #waxedOff{
+  display: flex;
+  justify-content: center;
+
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 250px;
+  margin-bottom:15px;
+  
+  color: black;
+  font-size: 40px;
+
+  position: relative;
+  z-index: 5;
+} */
+
+h1{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: 0;
+  
+  position: relative;
+  z-index: 5;
+}
+
+#waxSpecialist{
+  display: flex;
+  justify-content: center;
+
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom:25px;
+  text-decoration: dotted black;
+  color: black;
+  font-size: 25px;
+
+  position: relative;
+  z-index: 5;
+}
+
+.buttonTopRow {
+  text-decoration: none;
+  position: relative;
+  color: black;
+  font-size: 20px;
+  font-family: "montserrat";
+  text-align: center;
+
+  
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: transparent;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+  height: 65px;
+  width: 409px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom:15px;
+  margin-top:1.3em ;
+  font-stretch: semi-expanded;
+
+  position: relative;
+  z-index: 5;
+} 
+
+.buttonTopRow a{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-decoration: none;
+  color: black;
+
+}
+#bookButton{
+  border: 3px solid rgb(241, 198, 196);
+}
+
+#bookButton a::before{
+  background:rgb(241, 198, 196);
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+#bookButton a::before{
+  width: 0%;
+  height: 100%;
+  text-decoration: none;
+}
+
+#bookButton a:hover::before{
+  width: 190%;
+  text-decoration: none;
+}
+ 
+#address{
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto; 
+  /* margin-bottom:25px; */
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5em;
+  color: black;
+
+  position: relative;
+  z-index: 5;
+}
+
+.fa {
+  font-size: 30px;
+  height: 20px;
+  width: 30px;
+  text-decoration: none;
+  
+  color: black;
+  border: none;
+
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom:15px; 
+
+  position: relative;
+  z-index: 5;
+ 
+}
+
+.fa:hover {
+  opacity: 0.5;
+  
+}
+#socialMediaButtons{
+font-size: 40px;
+  width: 40%;
+  
+  background: rgb(241, 198, 196, 0 );
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom:15px; 
+  text-align: center;
+  
+  position: relative;
+  z-index: 5;
+}
+
+
+#tiktokIcon{
+  color: black;
+  font-size: 40px;
+  
+  position: relative;
+  z-index: 5;
+  border: 2px solid black;
+  border-radius: 15%;
+  padding: 10px;
+}
+#tiktokIcon:hover {
+  opacity: 0.5;
+}
+/*********
+*********************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@-ms-viewport {
+  width: device-width ;
+}
+
