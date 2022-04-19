@@ -37,7 +37,7 @@ body {
 
 
 #logo{
-  margin: -150px;
+  margin: -165px;
   padding-bottom: 15px;
   width:500px;
   
@@ -96,14 +96,14 @@ h1{
 }
 
 #waxSpecialist{
+  text-decoration: 5px underline dotted black;
+  text-underline-position: under;
   display: flex;
   justify-content: center;
 
   margin-left: auto;
   margin-right: auto; 
   margin-bottom:25px;
-  text-decoration: dotted black;
-  color: black;
   font-size: 25px;
 
   position: relative;
@@ -229,7 +229,11 @@ font-size: 40px;
   position: relative;
   z-index: 5;
 }
-
+/* #facebookIcon{
+  border: 1px solid black;
+  padding: 25px;
+  text-align: center;
+} */
 
 #tiktokIcon{
   color: black;
@@ -252,3 +256,4 @@ font-size: 40px;
   width: device-width ;
 }
 
+/* ******* switch px to % ***************/
