@@ -5,7 +5,6 @@
 /* Box Model Hack */
 *{
   box-sizing: border-box;
-  /* clear: both; */
 }
 
 /******************************************
@@ -13,30 +12,35 @@
 /*******************************************/
 
 body {
-  background-image: url('img/inTheStudioPicture.png'), url('img/pinkSilk.jpg');
-  background-position: right , left;
+  background-image: url('img/studio.jpg');
+  background-position: center;
   background-repeat: no-repeat;
-  background-size:  40%, contain;
-  background-attachment: fixed; 
+  background-size:  170%;
+  background-attachment: fixed;
   background-color: rgb(218,170,161);
+  
   
 }
 #borderAround{
-  background-color: rgb(197, 168, 141,.8); 
+  background-color: rgb(197, 168, 141,.9); 
   border: 4px solid white;
-  margin: 10px;
-  width: 600px;
-  height: 990px;
+  margin: 125px;
+  width: 60%;
+  height: 800px;
   display: block;
   margin-left: auto;
   margin-right: auto; 
   margin-bottom:15px;
   position: relative;
   z-index: 5; 
+
+  padding: 10px;
+  block-size: fit-content;
+
 }
 
 
-#logo{
+/* #logo{
   margin: -165px;
   padding-bottom: 15px;
   width:500px;
@@ -52,21 +56,24 @@ body {
   z-index: 5;
   
  
-}
+} */
 
-/* #paolasPicture{
+#paolasPicture{
   border: 3px solid white;
   border-radius: 50%;
+
+  height: 40%;
+  width: 40%;
 
   display: block;
   margin-left: auto;
   margin-right: auto; 
   margin-bottom:15px;
-  margin-top: 10%;
+  margin-top: -20%;
 
   position: relative;
   z-index: 5;
-} */
+}
 
 /* #waxedOff{
   display: flex;
@@ -84,7 +91,7 @@ body {
   z-index: 5;
 } */
 
-h1{
+/* h1{
   display: flex;
   justify-content: center;
   margin-left: auto;
@@ -93,7 +100,7 @@ h1{
   
   position: relative;
   z-index: 5;
-}
+} */
 
 #waxSpecialist{
   text-decoration: 5px underline dotted black;
@@ -108,8 +115,9 @@ h1{
 
   position: relative;
   z-index: 5;
+  background: none;
+  
 }
-
 .buttonTopRow {
   text-decoration: none;
   position: relative;
@@ -118,25 +126,32 @@ h1{
   font-family: "montserrat";
   text-align: center;
 
-  
-  border: 2px solid black;
+  border-color: transparent;
   border-radius: 25px;
-  background-color: transparent;
+  background-color: rgb(245, 245, 245, .4);
   text-transform: uppercase;
   overflow: hidden;
   transition: 1s all ease;
-  height: 65px;
-  width: 409px;
+  height: 50px;
+  width: 70%;
+  
 
   display: block;
   margin-left: auto;
   margin-right: auto; 
   margin-bottom:15px;
   margin-top:1.3em ;
+  padding: 5px;
   font-stretch: semi-expanded;
+  
 
   position: relative;
   z-index: 5;
+
+  /* width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px;
+  margin-bottom: 1em; */
 } 
 
 .buttonTopRow a{
@@ -149,9 +164,9 @@ h1{
   color: black;
 
 }
-#bookButton{
-  border: 3px solid rgb(241, 198, 196);
-}
+/* #bookButton{
+  border: 3px solid rgb(197, 168, 141,.1);
+} */
 
 #bookButton a::before{
   background:rgb(241, 198, 196);
@@ -161,7 +176,7 @@ h1{
   left: 50%;
   transform: translate(-50%,-50%);
   z-index: -1;
-  transition: all 0.6s ease;
+  transition: all 0.5s ease;
   text-decoration: none;
   border-radius: 15px;
 }
@@ -173,7 +188,8 @@ h1{
 }
 
 #bookButton a:hover::before{
-  width: 190%;
+  width: 200%;
+  height: 400%;
   text-decoration: none;
 }
  
@@ -182,7 +198,6 @@ h1{
   justify-content: space-around;
   margin-left: auto;
   margin-right: auto; 
-  /* margin-bottom:25px; */
   text-decoration: none;
   text-align: center;
   font-size: 1.5em;
@@ -190,20 +205,18 @@ h1{
 
   position: relative;
   z-index: 5;
+
+  background: none;
 }
 
 .fa {
-  font-size: 30px;
-  height: 20px;
-  width: 30px;
   text-decoration: none;
-  
+  align-content: center;
   color: black;
   border: none;
 
   margin-left: auto;
   margin-right: auto; 
-  margin-bottom:15px; 
 
   position: relative;
   z-index: 5;
@@ -215,45 +228,85 @@ h1{
   
 }
 #socialMediaButtons{
-font-size: 40px;
-  width: 40%;
+/* font-size: 30px; */
   
   background: rgb(241, 198, 196, 0 );
 
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  margin-bottom:15px; 
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
   position: relative;
   z-index: 5;
-}
-/* #facebookIcon{
-  border: 1px solid black;
-  padding: 25px;
-  text-align: center;
-} */
 
+}
+#facebookIcon{
+  border: 4px solid black;
+  width: 50px;
+  height: fit-content;
+  padding: 5px 5px 2px 5px;
+  text-align: center; 
+  border-radius: 15%;
+  font-size: 40px;
+  margin-left: 5px;
+}
+#instagram{
+  font-size: 60px;
+  margin-right: 5px;
+}
 #tiktokIcon{
   color: black;
-  font-size: 40px;
-  
+  font-size: 50px;
+  align-content: center;
   position: relative;
   z-index: 5;
-  border: 2px solid black;
+  border: 4px solid black;
   border-radius: 15%;
-  padding: 10px;
+
+  height: fit-content;
 }
 #tiktokIcon:hover {
   opacity: 0.5;
 }
+#socialMediaBorder{
+  background-color: rgb(197, 168, 141,.8); 
+  border: 4px solid white;
+  /* margin: 10px; */
+  width: 60%;
+  height: fit-content;
+
+  display: block;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto; 
+ 
+
+
+  position: relative;
+  z-index: 5; 
+}
+#copyright{
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  align-items:flex-end ;
+  position: static;
+  margin-bottom: -10px;
+}
+
 /*********
 *********************************
 /* ADDITIONAL STYLES
 /*******************************************/
-@-ms-viewport {
-  width: device-width ;
+
+/* These let you view website in landscape and portrait mode...? */
+@viewport{
+  zoom: 1;
+  width:extend-to-zoom;
+}
+@-ms-viewport{
+  width: extend-to-zoom;
+  zoom: 1.0;
 }
 
 /* ******* switch px to % ***************/

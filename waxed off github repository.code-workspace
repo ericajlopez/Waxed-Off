@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../Downloads/class28-materials/api-Book"
+		},
+		{
+			"path": "../../Downloads/class28-materials/api-template"
+		},
+		{
+			"path": "../../Downloads/class28-materials/card-game"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Waxed Off"
+	}
+}
