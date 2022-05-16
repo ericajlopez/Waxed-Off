@@ -257,9 +257,10 @@ body {
 *********************************
 /* ADDITIONAL STYLES
 /*******************************************/
-@media (min-width:320) and (max-width: 900){
-  #borderAround{
-    width: 98%;
+@media screen and (max-width: 668px){
+  #borderAround, #socialMediaBorder{
+    width: 35rem;
   }
+  
 }
 /* These let you view website in landscape and portrait mode...? */
