@@ -1,16 +1,28 @@
 {
 	"folders": [
 		{
-			"path": "../../Downloads/class28-materials/api-Book"
-		},
-		{
-			"path": "../../Downloads/class28-materials/api-template"
-		},
-		{
-			"path": "../../Downloads/class28-materials/card-game"
-		},
-		{
 			"path": "."
+		},
+		{
+			"path": "../../Downloads/super-review 2/variable-fun-time"
+		},
+		{
+			"path": "../../Downloads/super-review 2/age-checker"
+		},
+		{
+			"path": "../../Downloads/super-review 2/simple-functions"
+		},
+		{
+			"path": "../../Downloads/super-review 2/temperature-converter"
+		},
+		{
+			"path": "../../Downloads/super-review 2/bachelor-code"
+		},
+		{
+			"path": "../../Downloads/super-review 2/sir-savage-the-21st"
+		},
+		{
+			"path": "../../Downloads/super-review 2/bring-it-on"
 		}
 	],
 	"settings": {
