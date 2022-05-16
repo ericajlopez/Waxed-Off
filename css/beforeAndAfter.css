@@ -122,4 +122,12 @@
       z-index: 5;
       
     }
+    #copyright{
+      font-weight: lighter;
+      display: flex;
+      justify-content: center;
+      align-items:flex-end ;
+      position: static;
+      margin-bottom: -10px;
+    }
   }

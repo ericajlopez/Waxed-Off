@@ -92,3 +92,11 @@
     align-items:flex-end ;
     position: static;
   }
+  #copyright{
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end ;
+    position: static;
+    margin-bottom: -10px;
+  }

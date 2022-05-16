@@ -10,12 +10,15 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+html{
+  font-size: 62.5%;
+}
 
 body {
   background-image: url('img/studio.jpg');
-  background-position: center;
+  background-position: -15rem;
   background-repeat: no-repeat;
-  background-size:  170%;
+  background-size:  350%;
   background-attachment: fixed;
   background-color: rgb(218,170,161);
   
@@ -23,47 +26,45 @@ body {
 }
 #borderAround{
   background-color: rgb(197, 168, 141,.9); 
-  border: 4px solid white;
-  margin: 125px;
-  width: 60%;
+  border: .3rem solid white;
+  margin: 15rem;
+  width: 37rem;
   height: 800px;
   display: block;
+  align-content: center;
   margin-left: auto;
   margin-right: auto; 
-  margin-bottom:15px;
+  margin-bottom:1.5rem;
+  margin-top: 20%;
   position: relative;
   z-index: 5; 
-
-  padding: 10px;
+  
+  padding: 1rem;
   block-size: fit-content;
 
 }
 
-
-/* #logo{
-  margin: -165px;
-  padding-bottom: 15px;
-  width:500px;
+#socialMediaBorder{
+  background-color: rgb(197, 168, 141,.8); 
+  border: .3rem solid white;
   
+  width: 37rem;
+  height: fit-content;
+
   display: block;
-  justify-content: center;
-  
-
+  align-content: center;
   margin-left: auto;
   margin-right: auto; 
-  
-  position: relative;
-  z-index: 5;
-  
  
-} */
-
+  position: relative;
+  z-index: 5; 
+}
 #paolasPicture{
-  border: 3px solid white;
+  border: .3rem solid white;
   border-radius: 50%;
 
-  height: 40%;
-  width: 40%;
+  height: 17rem;
+  width: 17rem;
 
   display: block;
   margin-left: auto;
@@ -75,33 +76,6 @@ body {
   z-index: 5;
 }
 
-/* #waxedOff{
-  display: flex;
-  justify-content: center;
-
-  margin-left: auto;
-  margin-right: auto; 
-  margin-top: 250px;
-  margin-bottom:15px;
-  
-  color: black;
-  font-size: 40px;
-
-  position: relative;
-  z-index: 5;
-} */
-
-/* h1{
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto; 
-  margin-bottom: 0;
-  
-  position: relative;
-  z-index: 5;
-} */
-
 #waxSpecialist{
   text-decoration: 5px underline dotted black;
   text-underline-position: under;
@@ -111,7 +85,7 @@ body {
   margin-left: auto;
   margin-right: auto; 
   margin-bottom:25px;
-  font-size: 25px;
+  font-size: 2.5rem;
 
   position: relative;
   z-index: 5;
@@ -122,10 +96,10 @@ body {
   text-decoration: none;
   position: relative;
   color: black;
-  font-size: 20px;
+  font-size: 2rem;
   font-family: "montserrat";
   text-align: center;
-
+  
   border-color: transparent;
   border-radius: 25px;
   background-color: rgb(245, 245, 245, .4);
@@ -133,8 +107,8 @@ body {
   overflow: hidden;
   transition: 1s all ease;
   height: 50px;
-  width: 70%;
-  
+  width: 85%;
+  white-space: nowrap;
 
   display: block;
   margin-left: auto;
@@ -200,7 +174,7 @@ body {
   margin-right: auto; 
   text-decoration: none;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2rem;
   color: black;
 
   position: relative;
@@ -268,24 +242,9 @@ body {
 #tiktokIcon:hover {
   opacity: 0.5;
 }
-#socialMediaBorder{
-  background-color: rgb(197, 168, 141,.8); 
-  border: 4px solid white;
-  /* margin: 10px; */
-  width: 60%;
-  height: fit-content;
 
-  display: block;
-  align-content: center;
-  margin-left: auto;
-  margin-right: auto; 
- 
-
-
-  position: relative;
-  z-index: 5; 
-}
 #copyright{
+  font-size: 1.5rem;
   font-weight: lighter;
   display: flex;
   justify-content: center;
@@ -298,82 +257,9 @@ body {
 *********************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-/* These let you view website in landscape and portrait mode...? */
-@media (max-width: 500px){
+@media (min-width:320) and (max-width: 900){
   #borderAround{
-    background-color: rgb(197, 168, 141,.9); 
-    border: 4px solid white;
-    margin: 60px;
     width: 98%;
-    height: 700px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    margin-bottom:15px;
-    position: relative;
-    z-index: 5; 
-  
-    padding: 10px;
-    block-size: fit-content;
   }
-  body {
-    background-image: url('img/studio.jpg');
-    /* background-position: center; */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: rgb(218,170,161);
-    background-position-x: 70%;
-    
-    
-  }
-  .buttonTopRow {
-    text-decoration: none;
-    position: relative;
-    color: black;
-    font-size: 15px;
-    font-family: "montserrat";
-    text-align: center;
-    white-space: nowrap;
-  
-    border-color: transparent;
-    border-radius: 25px;
-    background-color: rgb(245, 245, 245, .4);
-    text-transform: uppercase;
-    overflow: hidden;
-    transition: 1s all ease;
-    height: 50px;
-    width: 70%;
-    
-  
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    margin-bottom:15px;
-    margin-top:1.3em ;
-    padding: 5px;
-    font-stretch: semi-expanded;
-    
-  
-    position: relative;
-    z-index: 5;
 }
-#socialMediaBorder{
-  background-color: rgb(197, 168, 141,.8); 
-  border: 4px solid white;
-  /* margin: 10px; */
-  width: 98%;
-  height: fit-content;
-
-  display: block;
-  align-content: center;
-  margin-left: auto;
-  margin-right: auto; 
- 
-
-
-  position: relative;
-  z-index: 5; 
-}
-}
+/* These let you view website in landscape and portrait mode...? */
