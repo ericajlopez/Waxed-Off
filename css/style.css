@@ -261,6 +261,15 @@ body {
   #borderAround, #socialMediaBorder{
     width: 35rem;
   }
-  
+}
+@media (min-width: 819px) and (max-width: 1181px){
+  #borderAround, #socialMediaBorder{
+    width: 60rem;
+   /* center them */
+
+  }
+  .buttonTopRow{
+    width:50%
+  }
 }
 /* These let you view website in landscape and portrait mode...? */
