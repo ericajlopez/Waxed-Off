@@ -300,13 +300,80 @@ body {
 /*******************************************/
 
 /* These let you view website in landscape and portrait mode...? */
-@viewport{
-  zoom: 1;
-  width:extend-to-zoom;
+@media (max-width: 500px){
+  #borderAround{
+    background-color: rgb(197, 168, 141,.9); 
+    border: 4px solid white;
+    margin: 60px;
+    width: 98%;
+    height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom:15px;
+    position: relative;
+    z-index: 5; 
+  
+    padding: 10px;
+    block-size: fit-content;
+  }
+  body {
+    background-image: url('img/studio.jpg');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(218,170,161);
+    background-position-x: 70%;
+    
+    
+  }
+  .buttonTopRow {
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-size: 15px;
+    font-family: "montserrat";
+    text-align: center;
+    white-space: nowrap;
+  
+    border-color: transparent;
+    border-radius: 25px;
+    background-color: rgb(245, 245, 245, .4);
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+    height: 50px;
+    width: 70%;
+    
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom:15px;
+    margin-top:1.3em ;
+    padding: 5px;
+    font-stretch: semi-expanded;
+    
+  
+    position: relative;
+    z-index: 5;
 }
-@-ms-viewport{
-  width: extend-to-zoom;
-  zoom: 1.0;
-}
+#socialMediaBorder{
+  background-color: rgb(197, 168, 141,.8); 
+  border: 4px solid white;
+  /* margin: 10px; */
+  width: 98%;
+  height: fit-content;
 
-/* ******* switch px to % ***************/
+  display: block;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto; 
+ 
+
+
+  position: relative;
+  z-index: 5; 
+}
+}
