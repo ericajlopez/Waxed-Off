@@ -90,8 +90,84 @@
     justify-content: center;
     align-items:flex-end ;
     position: static;
-    margin-bottom: -10px;
+    margin-bottom: -30px;
   }
+  @media screen and (max-width: 668px){
+    #borderAround{
+      width: 22rem;
+    }
+    #waxedOff{
+      display: block;
+      align-content: center;
+      margin-left: auto;
+      margin-right: auto; 
+      margin-top: -190px;
+      width: 100%;
+      
+      position: absolute;
+      z-index: 5;
+    }
+    body{
+      background-size: 300%;
+      background-position-x: 300px;
+    }
+    .headers{
+      font-size: 2.5em;
+      margin-top: 40px;
+      margin-bottom: -5px;
+    }
+  }
+  
+
+  @media (max-width: 900px){
+    #borderAround{
+      width: 23rem;
+    }
+    #waxedOff{
+      margin-top: -200px;
+    }
+    body{
+      background-size: 300%;
+      background-position-x: 990px;
+    }
+  }
+  
+  @media (max-width: 1030px){
+    #borderAround{
+      width: 40rem;
+    }
+    #waxedOff{
+      margin-top: -200px;
+    }
+    body{
+      background-size: 300%;
+      background-position-x: 115rem;
+    }
+  }
+  @media (max-width: 1370px){
+    #borderAround{
+      width: 50rem;
+    }
+    #waxedOff{
+      margin-top: -200px;
+    }
+    body{
+      background-size: 300%;
+      background-position-x: 345rem;
+    }
+  }
+
+@media (max-width: 1600px) 
+{ 
+  #waxedOff{
+    margin-top: -250px;
+  }
+  body{
+    background-size: 150%;
+    background-position-x: 99rem;
+  }
+
+}
 
   
   

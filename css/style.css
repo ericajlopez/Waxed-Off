@@ -136,13 +136,11 @@ body {
   transform: translate(-50%,-50%);
   text-decoration: none;
   color: black;
+  display: block;
 
 }
-/* #bookButton{
-  border: 3px solid rgb(197, 168, 141,.1);
-} */
 
-#bookButton a::before{
+button span::before{
   background:rgb(241, 198, 196);
   content: "";
   position: absolute;
@@ -155,13 +153,13 @@ body {
   border-radius: 15px;
 }
 
-#bookButton a::before{
+button span::before{
   width: 0%;
   height: 100%;
   text-decoration: none;
 }
 
-#bookButton a:hover::before{
+button span:hover::before{
   width: 200%;
   height: 400%;
   text-decoration: none;
@@ -265,11 +263,10 @@ body {
 @media (min-width: 819px) and (max-width: 1181px){
   #borderAround, #socialMediaBorder{
     width: 60rem;
-   /* center them */
-
-  }
+   }
   .buttonTopRow{
     width:50%
   }
-}
-/* These let you view website in landscape and portrait mode...? */
+} 
+
+
