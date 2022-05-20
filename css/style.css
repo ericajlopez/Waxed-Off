@@ -16,9 +16,9 @@ html{
 
 body {
   background-image: url('img/studio.jpg');
-  background-position: -15rem;
-  background-repeat: no-repeat;
-  background-size:  350%;
+  background-position: top right;
+  background-repeat: repeat;
+  background-size:  120%;
   background-attachment: fixed;
   background-color: rgb(218,170,161);
   
@@ -64,7 +64,7 @@ body {
   border-radius: 50%;
 
   height: 17rem;
-  width: 17rem;
+  width: 17.6rem;
 
   display: block;
   margin-left: auto;
@@ -260,13 +260,71 @@ button span:hover::before{
     width: 35rem;
   }
 }
-@media (min-width: 819px) and (max-width: 1181px){
+/* @media (min-width: 819px) and (max-width: 1181px){
   #borderAround, #socialMediaBorder{
     width: 60rem;
    }
   .buttonTopRow{
     width:50%
   }
-} 
+}  */
+@media (min-width: 1023px){
+    #socialMediaBorder{
+    height: 18rem;
+    width: 90rem;
+   }
+   #borderAround{
+    width: 90rem;
+    margin-top: 40%;
+    height: 100rem;
 
-
+    block-size: fit-content;
+   }
+   #paolasPicture{
+     height: 40rem;
+     width: 40rem;
+   }
+   #waxSpecialist{
+     font-size: 5rem;
+   }
+  .buttonTopRow{
+    width:60%;
+    height: 10rem;
+    font-size: 4rem;
+    align-content: center;
+  }
+  #address{
+    font-size: 5rem;
+  }
+  body {
+    background-image: url('img/studio.jpg');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size:  260%;
+    background-attachment: fixed;
+    
+  }
+  #socialMediaButtons{
+    /* font-size: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+      
+  }
+  #tiktokIcon{
+    
+    font-size: 90px;
+    align-content: center;
+    position: relative;
+    z-index: 5;
+    border: 4px solid black;
+    border-radius: 15%;
+  
+    height: fit-content;
+  }
+  #copyright{
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+}

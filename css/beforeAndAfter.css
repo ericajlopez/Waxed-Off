@@ -117,3 +117,48 @@
       background-size: 300%;
     }
   }
+  @media (min-width: 1023px){
+   #borderAround{
+    width: 60rem;
+    margin-top: 7%;
+    height: 100rem;
+
+    block-size: fit-content;
+   }
+  
+  body {
+    background-image: url('img/studio.jpg');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size:  260%;
+    background-attachment: fixed;
+  }
+  #waxedOff{
+    height: 50rem;
+    margin-top: -25rem;
+  }
+  .headers{
+    font-size: 4rem;
+    margin-top: -15rem;
+  }
+  .paragraph{
+    font-weight: lighter;
+    font-size: 1.9rem;
+  }
+  #forHours{
+    font-size: 2rem;
+  }
+  .secondHeader{
+    font-size: 3rem;
+  }
+  .postWaxNos{
+    font-size: 2.2rem;
+  }
+  #doNotShave{
+    font-size: 2.5rem;
+  }
+  #copyright{
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+}

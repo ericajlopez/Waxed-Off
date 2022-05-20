@@ -92,7 +92,7 @@
     position: static;
     margin-bottom: -30px;
   }
-  @media screen and (max-width: 668px){
+  /* @media screen and (max-width: 668px){
     #borderAround{
       width: 22rem;
     }
@@ -116,10 +116,10 @@
       margin-top: 40px;
       margin-bottom: -5px;
     }
-  }
+  } */
   
 
-  @media (max-width: 900px){
+  /* @media (max-width: 900px){
     #borderAround{
       width: 23rem;
     }
@@ -130,9 +130,9 @@
       background-size: 300%;
       background-position-x: 990px;
     }
-  }
+  } */
   
-  @media (max-width: 1030px){
+  /* @media (max-width: 1030px){
     #borderAround{
       width: 40rem;
     }
@@ -143,8 +143,8 @@
       background-size: 300%;
       background-position-x: 115rem;
     }
-  }
-  @media (max-width: 1370px){
+  } */
+  /* @media (max-width: 1370px){
     #borderAround{
       width: 50rem;
     }
@@ -155,9 +155,9 @@
       background-size: 300%;
       background-position-x: 345rem;
     }
-  }
+  } */
 
-@media (max-width: 1600px) 
+/* @media (max-width: 1600px) 
 { 
   #waxedOff{
     margin-top: -250px;
@@ -167,6 +167,95 @@
     background-position-x: 99rem;
   }
 
+} */
+
+@media screen and (max-width: 668px){
+  #borderAround{
+    width: 23rem;
+  }
+  #waxedOff{
+    display: block;
+    align-content: center;
+    
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: -195px;
+    width: 100%;
+    
+    
+    position: absolute;
+    z-index: 5;
+    
+  }
+  /* .headers{
+    margin-top: 50px;
+  }
+  body{
+    background-size: 300%;
+  } */
+  body{
+    background-size: 300%;
+    background-position-x: 300px;
+  }
+  .headers{
+    font-size: 2.5em;
+    margin-top: 40px;
+    margin-bottom: -5px;
+  }
+}
+@media (min-width: 669px) and (max-width: 769px){
+  #borderAround{
+    width: 100rem;
+  }
+  .headers{
+    font-size: 3rem;
+    margin-top: -2rem;
+    margin-bottom: -.8rem;
+  }
+  .secondHeader{
+    font-size:1.7rem;
+  }
+  .paragraph{
+    font-size: 1.5rem;
+  }
+  #copyright{
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1023px){
+ #borderAround{
+  width: 60rem;
+  margin-top: 7%;
+  height: 100rem;
+
+  block-size: fit-content;
+ }
+
+body {
+  background-position: -20rem;
+  background-repeat: no-repeat;
+  background-size:  200%;
+  background-attachment: fixed;
+}
+#waxedOff{
+  height: 50rem;
+  margin-top: -25rem;
+}
+.headers{
+  font-size: 4rem;
+  margin-top: -15rem;
+}
+.paragraph{
+  font-weight: lighter;
+  font-size: 1.9rem;
+}
+.secondHeader{
+  font-size: 3rem;
+}
+#copyright{
+  font-size: 2rem;
+  margin-top: 1rem;
+}
 }
 
   
